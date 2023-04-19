@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/activitylogo"
+        android:layout_width="419dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/rickandmortyogo" />
+
+    <ListView
+        android:layout_width="407dp"
+        android:layout_height="490dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="409dp"
+        android:layout_height="137dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="104dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
